@@ -40,16 +40,32 @@ class App extends Component {
                 </tr>
                 <tr>
                   <td ><span>GET https://fenty-api.herokuapp.com/name/$ProductName </span></td>
-                  <td>Gets a product by name</td>
+                  <td>Gets a product by name </td>
                  </tr>
                  <tr>
                    <td ><span>GET https://fenty-api.herokuapp.com/collection/$ProductCollection </span></td>
-                   <td>Gets a product by collection</td>
+                   <td>Gets products in a collection (example: Pro Kiss'r)</td>
                   </tr>
                 <tr>
                   <td ><span>GET https://fenty-api.herokuapp.com/random </span></td>
                   <td>Gets a random product</td>
                 </tr>
+                <tr>
+                  <td ><span>GET https://fenty-api.herokuapp.com/ingredient/$Ingredient</span></td>
+                  <td>Gets products containing a specific ingredient  (example: polybutene)</td>
+                 </tr>
+                 <tr>
+                   <td ><span>GET https://fenty-api.herokuapp.com/color/$Color</span></td>
+                   <td>Gets products within a specific color family (example: blue)</td>
+                  </tr>
+                  <tr>
+                    <td ><span>GET https://fenty-api.herokuapp.com/price/$Price</span></td>
+                    <td>Gets products by a price point (example: 20)</td>
+                   </tr>
+                   <tr>
+                     <td ><span>GET https://fenty-api.herokuapp.com/type/$Type</span></td>
+                     <td>Gets products within a specific product type (ex: foundation)</td>
+                    </tr>
             </table>
           </Container>
           <footer>
